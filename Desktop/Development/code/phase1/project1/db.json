@@ -1,0 +1,265 @@
+{
+    "rides": [
+      {
+        "id": 1,
+        "pickup": {
+          "location": "123 Main St, Cityville, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        },
+        "dropoff": {
+          "location": "456 Elm St, Townsville, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -118.2437
+        }
+      },
+      {
+        "id": 2,
+        "pickup": {
+          "location": "789 Oak Ave, Villageton, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -74.006
+        },
+        "dropoff": {
+          "location": "987 Pine Rd, Hamletville, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -87.6298
+        }
+      },
+      {
+        "id": 3,
+        "pickup": {
+          "location": "321 Cedar Blvd, Countryside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -0.1278
+        },
+        "dropoff": {
+          "location": "654 Birch Ln, Riverside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -0.1278
+        }
+      },
+      {
+        "id": 4,
+        "pickup": {
+          "location": "111 Maple Ave, Suburbia, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -75.1652
+        },
+        "dropoff": {
+          "location": "222 Walnut St, Metroville, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -77.0369
+        }
+      },
+      {
+        "id": 5,
+        "pickup": {
+          "location": "555 Pine St, Hilltown, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.6762
+        },
+        "dropoff": {
+          "location": "666 Oak Ave, Lakeside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        }
+      },
+      {
+        "id": 6,
+        "pickup": {
+          "location": "777 Elm Rd, Mountainview, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.0838
+        },
+        "dropoff": {
+          "location": "888 Cedar Ln, Seaside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -121.8947
+        }
+      },
+      {
+        "id": 7,
+        "pickup": {
+          "location": "999 Birch Ave, Lakeshore, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -79.383
+        },
+        "dropoff": {
+          "location": "1010 Oak St, Riverside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -118.2437
+        }
+      },
+      {
+        "id": 8,
+        "pickup": {
+          "location": "1212 Maple Rd, Forestville, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -71.0589
+        },
+        "dropoff": {
+          "location": "1313 Walnut Ave, Beachtown, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        }
+      },
+      {
+        "id": 9,
+        "pickup": {
+          "location": "1414 Pine St, Hilltop, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -75.1652
+        },
+        "dropoff": {
+          "location": "1515 Cedar Ave, Lakeside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        }
+      },
+      {
+        "id": 10,
+        "pickup": {
+          "location": "1616 Elm Blvd, Mountainview, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.0838
+        },
+        "dropoff": {
+          "location": "1717 Oak Ln, Seaside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -121.8947
+        }
+      },
+      {
+        "id": 11,
+        "pickup": {
+          "location": "1818 Birch Rd, Lakeshore, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -79.383
+        },
+        "dropoff": {
+          "location": "1919 Maple St, Riverside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -118.2437
+        }
+      },
+      {
+        "id": 12,
+        "pickup": {
+          "location": "2020 Pine Ave, Forestville, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -71.0589
+        },
+        "dropoff": {
+          "location": "2121 Cedar Rd, Beachtown, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        }
+      },
+      {
+        "id": 13,
+        "pickup": {
+          "location": "2222 Oak St, Hilltop, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -75.1652
+        },
+        "dropoff": {
+          "location": "2323 Elm Ave, Lakeside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        }
+      },
+      {
+        "id": 14,
+        "pickup": {
+          "location": "2424 Cedar Blvd, Mountainview, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.0838
+        },
+        "dropoff": {
+          "location": "2525 Birch Ln, Seaside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -121.8947
+        }
+      },
+      {
+        "id": 15,
+        "pickup": {
+          "location": "2626 Walnut Rd, Lakeshore, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -79.383
+        },
+        "dropoff": {
+          "location": "2727 Maple Ave, Riverside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -118.2437
+        }
+      },
+      {
+        "id": 16,
+        "pickup": {
+          "location": "2828 Pine St, Forestville, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -71.0589
+        },
+        "dropoff": {
+          "location": "2929 Cedar Ave, Beachtown, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        }
+      },
+      {
+        "id": 17,
+        "pickup": {
+          "location": "3030 Elm Blvd, Hilltop, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -75.1652
+        },
+        "dropoff": {
+          "location": "3131 Oak Rd, Lakeside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        }
+      },
+      {
+        "id": 18,
+        "pickup": {
+          "location": "3232 Cedar St, Mountainview, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.0838
+        },
+        "dropoff": {
+          "location": "3333 Birch Ave, Seaside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -121.8947
+        }
+      },
+      {
+        "id": 19,
+        "pickup": {
+          "location": "3434 Walnut Blvd, Lakeshore, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -79.383
+        },
+        "dropoff": {
+          "location": "3535 Maple Ln, Riverside, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -118.2437
+        }
+      },
+      {
+        "id": 20,
+        "pickup": {
+          "location": "3636 Pine Rd, Forestville, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -71.0589
+        },
+        "dropoff": {
+          "location": "3737 Cedar Ave, Beachtown, USA",
+          "good": ["Home Decor", "Household Items"],
+          "longitude": -122.4194
+        }
+      }
+    ]
+  }
+  
