@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d6259cd75c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.PNG" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front end developer</p>
+            <h1>Hi, I'm <span>Muchiri</span><br>From Kenya</h1>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Muchiri 2.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Muchiri, a junior developer passionate about building impactful software solutions. My journey into coding started with a curiosity for technology and a drive to create meaningful digital experiences. I've been working on my skills in HTML, CSS, and Python, constantly seeking new challenges and learning opportunities. As a junior developer, I'm eager to collaborate, innovate, and contribute to projects that push boundaries. Outside of coding, you'll find me exploring new technology and working on personal projects. I'm excited about the endless possibilities in the world of software development and eager to make a positive impact. Let's connect and create something awesome together!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML/CSS</span><br>Developing and designing websites</li>
+                        <li><span>Python</span><br>Creating robust backend logic, building scalable web applications, automating tasks, and handling data processing and analysis.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-2024</span><br>Web development doing lots of personal projects</li>
+                        <li><span>2023-2024</span><br>Learning a lot from YouTube and also doing some side projects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2023</span><br>HTML/CSS Developing and designing websites at Zetech University</li>
+                        <li><span>2024</span><br>Python mostly self-taught using the internet and side projects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services Section -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h2>Web Design (Html/Css/Javascript)</h2>
+                <p>As a junior web designer, I excel in crafting visually appealing websites that seamlessly blend creativity with functionality. With a keen eye for design and a passion for user-centered experiences, I specialize in creating digital platforms that elevate your brand's online presence. Let's collaborate to transform your vision into a captivating website that not only showcases your brand but also engages your audience effectively.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="service">
+                <i class="fab fa-python"></i>
+                <h2>Python Development</h2>
+                <p>At the crossroads of creative design and robust functionality lies my area of expertise. Beyond crafting visually stunning websites, I'm immersing myself in the realm of Python development. As a dedicated learner, I continuously refine my Python skills to enhance my web solutions. While I'm in the early stages of learning, my dedication to excellence remains steadfast. Through Python, I'm exploring innovative avenues to enrich user experiences and optimize backend processes. Partner with me to not only enhance your online presence but also embark on transformative digital journeys driven by Python.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="work 1.jpeg">
+                <div class="layer">
+                    <h3>Camera Website Store</h3>
+                    <p>The website connects you to talented people around the world. Visit it for more information.</p>
+                    <a href="#"><i class="fas fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work 2.jpeg">
+                <div class="layer">
+                    <h3>Men's Clothes Website Store</h3>
+                    <p>Discover style at our men's store. From suits to essentials, find your look. Elevate your wardrobe now!</p>
+                    <a href="#"><i class="fas fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work 3 (2).jpeg">
+                <div class="layer">
+                    <h3>Sports Accessories Website Store</h3>
+                    <p>Explore our sports accessories store. Find gear for your game. Elevate your performance today!</p>
+                    <a href="#"><i class="fas fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="far fa-envelope"></i> muchirigeoorge169@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +254719418594</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                </div>
+                <a href="#" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form id="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <p id="success-message" style="display: none; color: green;">Form submitted successfully!</p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Muchiri. All rights reserved. Made with ❤️</p>
+    </div>
+</div>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyeYWAyX4utx01NiP50CLxqxzEXcc6jx8p47lY1BTpZzSVaTmT7hBmdZFisTQ8TrZWoRw/exec';
+    const form = document.getElementById('submit-to-google-sheet');
+    const successMessage = document.getElementById('success-message');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                if (response.ok) {
+                    successMessage.style.display = 'block';
+                    form.reset();
+                    setTimeout(() => {
+                        successMessage.style.display = 'none';
+                    }, 5000);
+                } else {
+                    console.error('Form submission failed:', response.statusText);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    });
+</script>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+        for (var i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
